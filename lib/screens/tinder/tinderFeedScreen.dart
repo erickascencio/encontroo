@@ -97,7 +97,7 @@ class _TinderFeedScreenState extends State<TinderFeedScreen> {
   Widget _buildMatchPopup() {
     return Positioned.fill(
       child: Container(
-        color: Colors.black.withOpacity(0.7), // Fundo semi-transparente
+        color: Colors.black.withValues(alpha: 0.7), // Fundo semi-transparente
         child: Center(
           child: Stack(
             alignment: Alignment.center,

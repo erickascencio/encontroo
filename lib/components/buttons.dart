@@ -65,7 +65,7 @@ class Buttons {
           ),
           SizedBox(height: 4.h),
           DropdownButtonFormField<String>(
-            value: value,
+            initialValue: value,
             validator: validator,
             items: items.map((String value) {
               return DropdownMenuItem<String>(

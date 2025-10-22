@@ -24,7 +24,7 @@ class PromEventCard extends StatelessWidget {
       height: 140.h, // Ajuste proporcional
       margin: EdgeInsets.symmetric(horizontal: 4.w, vertical: 6.h),
       decoration: BoxDecoration(
-        color: Colors.white.withOpacity(0.6),
+        color: Colors.white.withValues(alpha: 0.6),
         borderRadius: BorderRadius.circular(8.r), // Ajuste leve no arredondamento
       ),
       child: Stack(

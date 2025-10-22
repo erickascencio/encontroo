@@ -57,7 +57,7 @@ class PromLoginScreen extends StatelessWidget {
                               controller: emailController,
                               decoration: InputDecoration(
                                 filled: true,
-                                fillColor: Colors.black.withOpacity(0.2),
+                                fillColor: Colors.white.withValues(alpha: 0.2),
                                 hintText: 'Digite seu email',
                                 hintStyle: TextStyle(color: Colors.white),
                                 suffixIcon: IconButton(
@@ -78,7 +78,7 @@ class PromLoginScreen extends StatelessWidget {
                               obscureText: true,
                               decoration: InputDecoration(
                                 filled: true,
-                                fillColor: Colors.black.withOpacity(0.2),
+                                fillColor: Colors.black.withValues(alpha: 0.2),
                                 hintText: 'Digite sua senha',
                                 hintStyle: TextStyle(color: Colors.white),
                                 suffixIcon: IconButton(
@@ -131,7 +131,7 @@ class PromLoginScreen extends StatelessWidget {
                                 // Camada de opacidade
                                 Container(
                                   decoration: BoxDecoration(
-                                    color: Colors.black.withOpacity(0.2),
+                                    color: Colors.black.withValues(alpha: 0.2),
                                     borderRadius: BorderRadius.circular(30.r),
                                   ),
                                 ),
@@ -162,7 +162,7 @@ class PromLoginScreen extends StatelessWidget {
                             style: TextStyle(color: Colors.white, fontSize: 14.sp),
                           ),
                           style: ElevatedButton.styleFrom(
-                            backgroundColor: Colors.white.withOpacity(0.4), // Fundo ainda mais transparente
+                            backgroundColor: Colors.white.withValues(alpha: 0.4), // Fundo ainda mais transparente
                             padding: EdgeInsets.symmetric(vertical: 12.h),
                             minimumSize: Size(double.infinity, 40.h),
                             shape: RoundedRectangleBorder(

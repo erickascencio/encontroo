@@ -80,7 +80,7 @@ class _TinderCardState extends State<TinderCard> {
       height: widget.height,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(20.r),
-        color: Colors.white.withOpacity(0.6),
+        color: Colors.white.withValues(alpha: 0.6),
         boxShadow: [
           BoxShadow(
             color: Colors.black26,
@@ -131,7 +131,7 @@ class _TinderCardState extends State<TinderCard> {
                       duration: const Duration(milliseconds: 300),
                       padding: EdgeInsets.all(8.w),
                       decoration: BoxDecoration(
-                        color: Colors.black.withOpacity(0.6),
+                        color: Colors.black.withValues(alpha: 0.6),
                         borderRadius: BorderRadius.circular(8.r),
                       ),
                       child: Column(
@@ -181,7 +181,7 @@ class _TinderCardState extends State<TinderCard> {
                 borderRadius: BorderRadius.vertical(
                   bottom: Radius.circular(20.r),
                 ),
-                color: Colors.black.withOpacity(0.2),
+                color: Colors.black.withValues(alpha: 0.2),
               ),
               child: Padding(
                 padding: EdgeInsets.symmetric(horizontal: 16.w, vertical: 8.h),

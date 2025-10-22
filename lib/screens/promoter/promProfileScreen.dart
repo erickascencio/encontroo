@@ -200,7 +200,7 @@ class _ProfileScreenState extends State<PromProfileScreen> {
           width: double.infinity,
           padding: EdgeInsets.symmetric(horizontal: 10.w, vertical: 12.h),
           decoration: BoxDecoration(
-            color: Colors.white.withOpacity(0.8),
+            color: Colors.white.withValues(alpha: 0.8),
             borderRadius: BorderRadius.circular(10.r),
           ),
           child: Text(

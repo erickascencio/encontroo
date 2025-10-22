@@ -48,7 +48,7 @@ class MatchsScreen extends StatelessWidget {
               padding: EdgeInsets.symmetric(horizontal: 12.w),
               margin: EdgeInsets.only(bottom: 16.h),
               decoration: BoxDecoration(
-                color: Colors.white.withOpacity(0.2),
+                color: Colors.white.withValues(alpha: 0.2),
                 borderRadius: BorderRadius.circular(8.r),
               ),
               child: TextField(
@@ -138,7 +138,7 @@ class MatchsScreen extends StatelessWidget {
     return Container(
       margin: EdgeInsets.only(bottom: 12.h),
       decoration: BoxDecoration(
-        color: Colors.white.withOpacity(0.2), // Fundo translúcido
+        color: Colors.white.withValues(alpha: 0.2), // Fundo translúcido
         borderRadius: BorderRadius.circular(12.r),
       ),
       child: ListTile(

@@ -48,7 +48,7 @@ class ChatScreen extends StatelessWidget {
             // Linha divisória ajustada
             Divider(
               thickness: 1,
-              color: Colors.grey.withOpacity(0.5),
+              color: Colors.grey.withValues(alpha: 0.5),
               height: 1.h,
             ),
             // Corpo das mensagens
@@ -73,7 +73,7 @@ class ChatScreen extends StatelessWidget {
             Container(
               padding: EdgeInsets.symmetric(horizontal: 16.w, vertical: 8.h),
               decoration: BoxDecoration(
-                color: Colors.black.withOpacity(0.1),
+                color: Colors.black.withValues(alpha: 0.1),
                 borderRadius: BorderRadius.vertical(top: Radius.circular(16.r)),
               ),
               child: Row(
@@ -127,7 +127,7 @@ class ChatScreen extends StatelessWidget {
           margin: EdgeInsets.symmetric(vertical: 4.h),
           padding: EdgeInsets.all(12.w),
           decoration: BoxDecoration(
-            color: isSender ? const Color(0xFF6B09B5) : Colors.white.withOpacity(0.2),
+            color: isSender ? const Color(0xFF6B09B5) : Colors.white.withValues(alpha: 0.2),
             borderRadius: BorderRadius.only(
               topLeft: Radius.circular(12.r),
               topRight: Radius.circular(12.r),

@@ -57,8 +57,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
           ),
           // White Overlay with Proper Opacity
           Container(
-            color: Colors.white
-                .withOpacity(0.6), // Ajustado para melhor visibilidade
+            color: Colors.white.withValues(alpha: 0.6), // Ajustado para melhor visibilidade
           ),
           SingleChildScrollView(
             padding: EdgeInsets.symmetric(horizontal: 16.w, vertical: 16.h),
@@ -70,7 +69,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   // Botões de seleção PJ e PF reduzidos
                   Container(
                     decoration: BoxDecoration(
-                      color: Colors.white.withOpacity(0.2),
+                      color: Colors.white.withValues(alpha: 0.2),
                       borderRadius: BorderRadius.circular(30.r),
                     ),
                     child: Row(

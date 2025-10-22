@@ -217,7 +217,7 @@ class _UserEditProfileScreenState extends State<UserEditProfileScreen> {
           validator: validator,
           decoration: InputDecoration(
             filled: true,
-            fillColor: Colors.white.withOpacity(0.8),
+            fillColor: Colors.white.withValues(alpha: 0.8),
             border: OutlineInputBorder(
               borderRadius: BorderRadius.circular(10.r),
               borderSide: BorderSide.none,
@@ -255,7 +255,7 @@ class _UserEditProfileScreenState extends State<UserEditProfileScreen> {
           validator: validator,
           decoration: InputDecoration(
             filled: true,
-            fillColor: Colors.white.withOpacity(0.8),
+            fillColor: Colors.white.withValues(alpha: 0.8),
             border: OutlineInputBorder(
               borderRadius: BorderRadius.circular(10.r),
               borderSide: BorderSide.none,
@@ -290,7 +290,7 @@ class _UserEditProfileScreenState extends State<UserEditProfileScreen> {
         ),
         SizedBox(height: 4.h),
         DropdownButtonFormField<String>(
-          value: selectedValue,
+          initialValue: selectedValue,
           items: items
               .map((item) => DropdownMenuItem<String>(
                     value: item,
@@ -304,7 +304,7 @@ class _UserEditProfileScreenState extends State<UserEditProfileScreen> {
           validator: validator,
           decoration: InputDecoration(
             filled: true,
-            fillColor: Colors.white.withOpacity(0.8),
+            fillColor: Colors.white.withValues(alpha: 0.8),
             border: OutlineInputBorder(
               borderRadius: BorderRadius.circular(10.r),
               borderSide: BorderSide.none,

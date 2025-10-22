@@ -79,7 +79,7 @@ class EventDetailScreen extends StatelessWidget {
                     child: Container(
                       decoration: BoxDecoration(
                         color:
-                            Colors.white.withOpacity(0.5), // Filtro branco 50%
+                            Colors.white.withValues(alpha: 0.5), // Filtro branco 50%
                         borderRadius: BorderRadius.circular(16.r),
                       ),
                       padding: EdgeInsets.all(16.w),

@@ -25,7 +25,7 @@ class EditEventScreen extends StatelessWidget {
               ),
             ),
             // Filtro branco
-            Container(color: Colors.white.withOpacity(0.5)),
+            Container(color: Colors.white.withValues(alpha: 0.5)),
             Column(
               children: [
                 // Cabeçalho com botão de voltar

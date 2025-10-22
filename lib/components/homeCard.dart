@@ -29,7 +29,7 @@ class HomeCard extends StatelessWidget {
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(15.r),
       ),
-      color: Colors.white.withOpacity(0.7), // Ajuste na opacidade do card
+      color: Colors.white.withValues(alpha: 0.3), // Ajuste na opacidade do card
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
